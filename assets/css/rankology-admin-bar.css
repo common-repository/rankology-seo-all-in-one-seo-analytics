@@ -1,0 +1,73 @@
+#wpadminbar,
+.column-rankology_score {
+    --colorAlert: #a00;
+    --colorWarning: #ffba00;
+    --colorSuccess: #4ab866;
+    --colorLowAlert: #e39f48;
+}
+
+/* Adminbar */
+#wpadminbar #wp-admin-bar-rankology .svg.rankology-logo {
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    float: left;
+    height: 32px;
+    width: 28px;
+}
+
+#wpadminbar #wp-toolbar #wp-admin-bar-rankology .wrap-rankology-noindex {
+    background: var(--colorAlert);
+    color: #fff;
+    padding: 0 8px;
+    float: right;
+    margin-left: 6px;
+}
+
+#wpadminbar #wp-toolbar #wp-admin-bar-rankology>a {
+    display: inline-block;
+}
+
+#wpadminbar #wp-toolbar #wp-admin-bar-rankology .wrap-rankology-noindex .ab-icon::before {
+    color: #eee;
+    vertical-align: middle;
+}
+
+#wpadminbar #wp-toolbar #wp-admin-bar-rankology_custom_sub_menu_meta_robots {
+    display: block;
+    background: #23292d;
+}
+
+#wpadminbar #wp-toolbar #wp-admin-bar-rankology_custom_sub_menu_meta_robots a {
+    height: inherit;
+    padding-bottom: 5px;
+}
+
+#wpadminbar #wp-toolbar #wp-admin-bar-rankology_custom_sub_menu_meta_robots .wrap-rankology-cpt-seo {
+    font-weight: bold;
+    border-bottom: 1px solid currentColor;
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#wpadminbar #wp-toolbar #wp-admin-bar-rankology_custom_sub_menu_meta_robots .wrap-rankology-cpt-noindex,
+#wpadminbar #wp-toolbar #wp-admin-bar-rankology_custom_sub_menu_meta_robots .wrap-rankology-cpt-nofollow {
+    display: block;
+}
+
+#wpadminbar #wp-toolbar #wp-admin-bar-rankology_custom_sub_menu_meta_robots .wrap-rankology-cpt-noindex .ab-icon,
+#wpadminbar #wp-toolbar #wp-admin-bar-rankology_custom_sub_menu_meta_robots .wrap-rankology-cpt-nofollow .ab-icon {
+    float: none;
+    vertical-align: middle;
+}
+
+#wpadminbar #wp-toolbar #wp-admin-bar-rankology_custom_sub_menu_meta_robots .wrap-rankology-cpt-noindex .on::before,
+#wpadminbar #wp-toolbar #wp-admin-bar-rankology_custom_sub_menu_meta_robots .wrap-rankology-cpt-nofollow .on::before {
+    color: var(--colorAlert);
+}
+
+#wpadminbar #wp-toolbar #wp-admin-bar-rankology_custom_sub_menu_meta_robots .wrap-rankology-cpt-noindex .off::before,
+#wpadminbar #wp-toolbar #wp-admin-bar-rankology_custom_sub_menu_meta_robots .wrap-rankology-cpt-nofollow .off::before {
+    color: var(--colorSuccess);
+}

@@ -1,0 +1,20 @@
+{
+    "name": "rankology/wp-rankology",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Alen Wilson",
+            "email": "alen.wilson@rankology.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "^1.0.20",
+        "drupal/file_browser": "dev-master",
+        "drupal/entity_embed": "dev-master",
+        "drupal/entity_browser": "dev-master",
+        "drupal/dropzonejs": "dev-master",
+        "enyo/dropzone": "^5.0",
+        "desandro/masonry": "^4.2",
+        "desandro/imagesloaded": "^4.1"
+    }
+}

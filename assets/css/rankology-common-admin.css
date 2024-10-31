@@ -1,0 +1,14 @@
+/* redirections css*/
+
+#posts-filter .tablenav.bottom {
+    height: auto;
+}
+
+/*faqa gutenberg builder*/
+.wprankology-hide {
+    display: none;
+}
+
+.wprankology-accordion-button {
+    width: 100%;
+}
